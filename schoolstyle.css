@@ -1,0 +1,259 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    background-color: lightblue;	
+   }
+   
+   h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+   }
+
+.wrapper {
+	margin: 0; /*location of Home, Signup and Login*/
+	width: 100%;
+}
+
+.wrapperh1 {
+	margin: 0;
+	text-align: center;/*Aligned Elementary school and search to center*/
+	image-orientation: inherit; /*Image in Center*/
+}
+nav{
+	width: 100%;
+	height: 100px;
+	background-color:whitesmoke;
+}
+
+ul{
+	margin-right: 0;
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+
+	line-height: 100px;
+}
+
+ul li a {
+	display: block;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #1e1e1e;
+	
+	padding: 0 20px;
+}
+
+ul li a:hover {
+	color: blue; /*On Hover Home, Signup and Login becomes blue*/
+}
+
+/*Login, Signup and Application/Update Form*/
+.loginform {
+  border-radius: 5px;
+  background-color: whitesmoke;
+  padding: 10px;
+  width: 30%;
+  height: 150px;
+  margin: auto;
+}
+
+.signupform {
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 40px;
+    width: 30%;
+	height: 280px;
+    margin: auto;
+}
+
+.applyform {
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 10px;
+    width: 30%;
+	  height: 280px;
+    margin: auto;
+}
+
+/*input type*/
+.updateform {
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 10px;
+    width: 35%;
+	height: 350px;
+    margin: auto;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+  }
+
+/*input type*/
+input[type=text], select {
+    font-family: 'Quicksand', sans-serif;
+    width: 60%;
+    padding: 6px 12px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+input[type=password], select {
+    width: 60%;
+    padding: 6px 12px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    font-family: 'Quicksand', sans-serif;
+    width: 60%;
+    background-color: darkgrey;
+    font-size: 14px;
+    color: rgb(30, 31, 87);
+    padding: 6px 12px;
+    margin: 8px 0;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+    color: white;
+}
+
+
+p{
+	border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 5px 40px;
+    width: 40%;
+	height: 40px;
+    margin: auto;
+	text-align: center;/*Aligned Error messages center*/
+	color: blue;
+	font-size: larger;
+}
+
+/*Search Page Welcome Message*/
+
+.searchbox {
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 20px 20px;
+    width: 20%;
+	height: 120px;
+    margin: auto;
+}
+
+/*Tool tip for search box*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: rgb(235, 172, 135);
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+/*Buttons */
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: grey;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: lightgrey;
+    color: black; 
+    border: 2px solid #4CAF50;
+    border-radius: 4px;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  /*Go Back Buttons and SHOW AND HIDE Buttons */
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    border-radius: 4px;
+  }
+
+  .button2:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+
+
+/*New Table*/
+#schooltable {
+    font-family: 'Quicksand', sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+  }
+  
+  #schooltable td, #schooltable th {
+    border: 1px solid black;
+    padding: 4px;
+  }
+  
+  #schooltable tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #schooltable tr:hover {background-color: #ddd;}
+  
+  #schooltable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+  }

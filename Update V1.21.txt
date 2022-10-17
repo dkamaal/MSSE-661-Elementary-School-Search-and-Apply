@@ -1,0 +1,26 @@
+Fully funcitional with new database except back button
+
+
+V1.12 Added tool tip for search button. Also Update has prepopulated fields. removed User ID from apply delete table. set message on search to larger in stylesheet.
+Also added message to login in when user is not logged in.
+
+V1.13 Added Java script function for Search functionality and added Cancel Button for Update page.
+
+V1.14 Updated Java Script function to have error handling for characters first then checking number of digits
+
+V1.15 Removed Search school function and added javascript function. Added Setup for creating tables and adding data. added insertdata.php file to insert data separately.
+
+V1.16 Added image change on mouseover on search, changed fonts using google fonts, changed table layout-border, added Go back buttons, added background color change on search screen errors
+      using javascript function. Adjusted heading space with image and text boxes. (04/24/2021 2:30AM)
+
+V1.17 Added Error handling to Update and apply form using JQuery. Added Hide and Show Applications buttons to Application Table. Resized Login Form.
+      Updated image mouseover on index page. 04/24/2021 1:50 PM
+V1.18 Deleted mysql login from functions.inc.php and fixed undefined error message on alert on search page  (04/25/2021)   
+V1.19 Added Cookies, Also added different messages on index page with respect to session and cookies.
+Added error=none on logout page. added session username in functions.php.
+V1.20 Added View Profile, updated display and detail page name. provided heading to schoollist and view profile page.
+V1.21 Final Version-Tested On Linux Ubuntu
+
+
+
+
