@@ -2,7 +2,7 @@
   $host = 'localhost';    // Change as necessary
   $data = 'nanosite'; // Change as necessary
   $user = 'root';         // Change as necessary
-  $pass = 'root';        // Change as necessary
+  $pass = '';        // Change as necessary
   $chrs = 'utf8mb4';
   $attr = "mysql:host=$host;dbname=$data;charset=$chrs";
   $opts =
